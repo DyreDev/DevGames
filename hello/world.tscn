@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://df8jilebw8r3v"]
+[gd_scene load_steps=6 format=3 uid="uid://df8jilebw8r3v"]
 
 [ext_resource type="Texture2D" uid="uid://d2vhl0wdsrwxg" path="res://Rsc/assets/background.png" id="1_y4lbi"]
 [ext_resource type="PackedScene" uid="uid://b17bt403sm8jl" path="res://box.tscn" id="2_8ft42"]
 [ext_resource type="PackedScene" uid="uid://b7maslo6bmiee" path="res://ground.tscn" id="3_0homr"]
 [ext_resource type="PackedScene" uid="uid://dgfkxfti0bunh" path="res://player.tscn" id="3_sif7a"]
+[ext_resource type="AudioStream" uid="uid://dxjdalt8r7gvs" path="res://Rsc/assets/music.ogg" id="5_ruc5k"]
 
 [node name="World" type="Node2D"]
 
@@ -27,14 +28,8 @@ position = Vector2(634, 383)
 [node name="Box4" parent="." instance=ExtResource("2_8ft42")]
 position = Vector2(724, 469)
 
-[node name="Box5" parent="." instance=ExtResource("2_8ft42")]
-position = Vector2(173, 479)
-
-[node name="Box6" parent="." instance=ExtResource("2_8ft42")]
-position = Vector2(65, 418)
-
-[node name="Box7" parent="." instance=ExtResource("2_8ft42")]
-position = Vector2(-27, 356)
-
 [node name="Player" parent="." instance=ExtResource("3_sif7a")]
 position = Vector2(295, 470)
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_ruc5k")
