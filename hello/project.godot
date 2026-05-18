@@ -10,7 +10,11 @@ config_version=5
 
 [application]
 
-config/name="HELLO"
-run/main_scene="res://world.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/name="Hello"
+run/main_scene="uid://chemtl6wmd5aj"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="Hello"

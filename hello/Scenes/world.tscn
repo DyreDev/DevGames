@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://p86hem5kplrn"]
+
+[ext_resource type="Texture2D" uid="uid://vdmk3v7ohsqj" path="res://assets/vecteezy_waterfall-game-background_24098100.jpg" id="1_a02cp"]
+[ext_resource type="AudioStream" uid="uid://dkpbogvlne2wq" path="res://assets/music.ogg" id="2_go701"]
+
+[node name="World" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 714.0
+texture = ExtResource("1_a02cp")
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_go701")
+autoplay = true

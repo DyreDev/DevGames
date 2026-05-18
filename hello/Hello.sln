@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello.csproj", "{C9D487B0-1BCE-477A-8D3A-17BD99E01863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D487B0-1BCE-477A-8D3A-17BD99E01863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D487B0-1BCE-477A-8D3A-17BD99E01863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D487B0-1BCE-477A-8D3A-17BD99E01863}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{C9D487B0-1BCE-477A-8D3A-17BD99E01863}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{C9D487B0-1BCE-477A-8D3A-17BD99E01863}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{C9D487B0-1BCE-477A-8D3A-17BD99E01863}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

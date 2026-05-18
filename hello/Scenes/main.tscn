@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://chemtl6wmd5aj"]
+
+[ext_resource type="PackedScene" uid="uid://p86hem5kplrn" path="res://Scenes/world.tscn" id="1_8gbba"]
+[ext_resource type="PackedScene" uid="uid://bxjm5t6k4ncy" path="res://Scenes/player.tscn" id="2_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://bcit8nu0o1is7" path="res://Scenes/box.tscn" id="3_kry3j"]
+[ext_resource type="PackedScene" uid="uid://y6f6c1ayupds" path="res://Scenes/ground.tscn" id="4_jjvhh"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Ground" parent="." instance=ExtResource("4_jjvhh")]
+position = Vector2(653, 651)
+
+[node name="World" parent="." instance=ExtResource("1_8gbba")]
+
+[node name="Box" parent="." instance=ExtResource("3_kry3j")]
+position = Vector2(322, 598)
+
+[node name="Box2" parent="." instance=ExtResource("3_kry3j")]
+position = Vector2(508, 600)
+
+[node name="Box3" parent="." instance=ExtResource("3_kry3j")]
+position = Vector2(594, 600)
+
+[node name="Box4" parent="." instance=ExtResource("3_kry3j")]
+position = Vector2(593, 515)
+
+[node name="Player" parent="." instance=ExtResource("2_jjvhh")]
+position = Vector2(145, 582)
